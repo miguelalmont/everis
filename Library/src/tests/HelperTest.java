@@ -16,6 +16,7 @@ public class HelperTest {
 		assertEquals(1001, b1.getId());
 	}
 	
+	@Test
 	void testDecreaseId() {
 		Book b1 = new Book("Michael Ende", "La Historia Interminable", 1979);
 		Helper.decreaseId(b1, 1);
