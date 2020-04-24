@@ -18,7 +18,7 @@ public class HelperTest {
 	
 	void testDecreaseId() {
 		Book b1 = new Book("Michael Ende", "La Historia Interminable", 1979);
-		Helper.increaseId(b1, 1);
+		Helper.decreaseId(b1, 1);
 		assertEquals(0, b1.getId());
 
 	}
